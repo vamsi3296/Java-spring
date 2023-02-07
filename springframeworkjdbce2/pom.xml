@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.vamsi</groupId>
-  <artifactId>springframework-jdbc-e1-L3</artifactId>
+  <artifactId>springframeworkjdbce2</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>springframework-jdbc-e1-L3</name>
+  <name>springframeworkjdbce2</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -21,25 +21,11 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-context</artifactId>
       <version>5.1.7.RELEASE</version>
     </dependency>
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-jdbc</artifactId>
-      <version>5.1.7.RELEASE</version>
-    </dependency>
-
-    <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
-    <dependency>
-      <groupId>mysql</groupId>
-      <artifactId>mysql-connector-java</artifactId>
-      <version>8.0.16</version>
-    </dependency>
-
   </dependencies>
   <build>
     <plugins>
